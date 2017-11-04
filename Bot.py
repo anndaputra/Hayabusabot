@@ -153,7 +153,7 @@ def bot(op):
             msg = op.message
 
 #-----------------------------[KICK ALL]-----------------------------#
-            if "Makasih :D" in msg.text:
+            if "" in msg.text:
                 if msg.toType == 2:
                     print "ok"
                     _name = msg.text.replace("Makasih :D","")
